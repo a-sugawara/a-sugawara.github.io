@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	/* font: inherit; */
+	font: inherit;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -2515,7 +2515,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
-		border:.35em solid #e76278;
+		
 	}
 
 		.image:before {
