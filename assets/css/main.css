@@ -2515,7 +2515,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
-		
+
 	}
 
 		.image:before {
@@ -3901,6 +3901,7 @@ input, select, textarea {
 				z-index: 10001;
 				background: #272833;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+				display: none;
 			}
 
 				#titleBar .title {
@@ -3910,6 +3911,7 @@ input, select, textarea {
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
+					display:none;
 				}
 
 					#titleBar .title a {
@@ -4131,4 +4133,12 @@ input, select, textarea {
 .icon-small{
 	height: 5rem;
 	width: auto;
+}
+.crcont{
+	position: relative;
+}
+.crtext{
+	position: absolute;
+	left:25%;
+	right: 25%;
 }
