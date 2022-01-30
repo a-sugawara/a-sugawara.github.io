@@ -3074,6 +3074,9 @@ input, select, textarea {
 			.spotlight .image.main img {
 				position: relative;
 			}
+			.spotlight .image.main iframe {
+				position: relative;
+			}
 
 		.spotlight .content {
 			-moz-transform: translate(0,0);
@@ -4141,4 +4144,7 @@ input, select, textarea {
 	position: absolute;
 	left:25%;
 	right: 25%;
+}
+.of-scroll{
+	overflow:scroll;
 }
